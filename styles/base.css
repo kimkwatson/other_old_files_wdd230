@@ -65,7 +65,7 @@ main ul a {
     padding: 10px;
 }
 
-a:link, a:visited {
+main, nav a:link, a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
