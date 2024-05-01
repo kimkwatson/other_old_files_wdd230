@@ -48,6 +48,7 @@ main h2 {
     background-color: rgb(216, 101, 101);
     color: whitesmoke;
     font-weight: 200;
+    font-size: 1.5rem;
     display: block;
     text-align: center;
     padding: 0.75rem 0;
@@ -55,11 +56,25 @@ main h2 {
 
 main ul {
     padding: 15px;
+    display: list-item;
     list-style-type: disc;
 }
 
 main ul a {
+    font-size: 1.5rem;
     padding: 10px;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+main a:hover {
+    color: rgb(216, 101, 101);
+    background-color: transparent;
+    text-decoration: none;
 }
 
 h1 {
